@@ -1,0 +1,69 @@
+html {
+  font-family: 'Roboto', 'Verdana', sans-serif;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: rgb(0, 190, 0);
+  font-size: 3rem;
+}
+
+h1, h2,
+ul.links {
+  text-align: center;
+  padding-inline-start: 0;
+}
+
+ul.links li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+ul.links li:last-of-type {
+  margin-right: 0;
+}
+
+a {
+  color: tomato;
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(196, 9, 9);
+}
+
+.img-container img:not(.main-img) {
+  width: 100vw;
+  height: 140px;
+  object-fit: cover;
+}
+
+.img-container #main-img {
+  height: 340px;
+}
+
+.part-container {
+  width: 25%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+strong {
+  color: tomato;
+}
+
+.part-container.steps {
+  width: 50%;
+}
+
+ul {
+  list-style: url('./icons/chef.png');
+}
